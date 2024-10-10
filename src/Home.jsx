@@ -1,8 +1,14 @@
 import React from 'react'
+import Button from './Button'
 
 const Home = () => {
   return (
-    <div>This is home page</div>
+    <>
+    <Button name="Register"/>
+    <Button name="Login"/>
+    <Button name="Logout"/>
+    <Button/>
+    </>
   )
 }
 
